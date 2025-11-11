@@ -77,22 +77,22 @@
 # else:
 #     print("its a cold day")
 
-
-student_gpa = 4.5
-student_score = 75
-
-if student_gpa >= 3.5:
-    if 50 <= student_score <=65:
-        print(f"Students with GPA{student_gpa} and test score of {student_score} may be eligible for a partial scholarship")
-    elif student_score > 65:
-         print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for a full schoolarship")
-    else:
-        print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for schoolarship")
-else:
-    print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for schoolarship")
-
-
-
+#
+# student_gpa = 4.5
+# student_score = 75
+#
+# if student_gpa >= 3.5:
+#     if 50 <= student_score <=65:
+#         print(f"Students with GPA{student_gpa} and test score of {student_score} may be eligible for a partial scholarship")
+#     elif student_score > 65:
+#          print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for a full schoolarship")
+#     else:
+#         print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for schoolarship")
+# else:
+#     print(f"Students with GPA {student_gpa} and test score of {student_score} is not eligible for schoolarship")
+#
+#
+#
 
 
 
