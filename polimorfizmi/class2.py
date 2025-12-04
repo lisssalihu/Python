@@ -1,0 +1,33 @@
+import math
+from curses.textpad import rectangle
+
+
+class Shape:
+    def area(self):
+        pass
+
+class Circle(Shape):
+
+    def __init__(self,radius):
+        self.radius=radius
+
+    def area(self):
+        return math.pi * self.radius * 2
+
+
+class Rectangle(Shape):
+
+    def __init__(self,width,height):
+        self.width=width
+        self.height=height
+
+
+    def area(self):
+        return self.width*self.height
+
+
+circle=Circle
+rectangle=Rectangle(4,6)
+
+print("Area of the circle:", circle.area())
+print("Area of the rectangle:",rectangle.area())
