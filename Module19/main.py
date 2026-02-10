@@ -96,7 +96,10 @@ st.plotly_chart(fig)
 st.subheader("Number od fiction vs Non-Fiction Books Over the Years")
 size = filtered_books_df.groupby(['Year', 'Genre']).size().reset_index(name='Counts')
 fig = px.bar(size, x='Year' ,y='Counts', color='Genre', title="Number of fiction vs Non fiction books from 2009-2022",
-            color_discrete_sequence=px.colors.sequential.Plasma, barmode='group')
+            color_discrete_sequence=px.colors.sequential.Plasma,
+
+
+barmode='group')
 st.plotly_chart(fig)
 
 
